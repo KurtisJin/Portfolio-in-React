@@ -408,28 +408,28 @@ section .title::after{
 }
 
 /* projects section styling */
-.projects .title::after {
+/* .projects .title::after {
     content: "I have worked on";
-}
-.projects .carousel .card {
+} */
+/* .projects .carousel .card {
     background: #222;
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
     overflow: hidden;
     transition: all 0.3s ease;
-}
-.projects .carousel .card:hover {
+} */
+/* .projects .carousel .card:hover {
     background: crimson;
-}
-.projects .carousel .card .box {
+} */
+/* .projects .carousel .card .box {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
-}
-.projects .carousel .card:hover .box {
+} */
+/* .projects .carousel .card:hover .box {
     transform: scale(1.05);
 }
 .projects .carousel .card .text {
@@ -447,8 +447,8 @@ section .title::after{
 }
 .projects .carousel .card:hover img{
     border-color: #fff;
-}
-.owl-dots{
+} */
+/* .owl-dots{
     text-align: center;
     margin-top: 20px;
 }
@@ -468,16 +468,16 @@ section .title::after{
 .owl-dot.active,
 .owl-dot:hover{
     background: crimson!important;
-}
+} */
 
-.github-profile {
+/* .github-profile {
     background-color: white;
     border-radius: 3px; 
 }
 
 .resources {
     color: white;
-}
+} */
 
 
 /* contact section styling */
