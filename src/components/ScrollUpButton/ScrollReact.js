@@ -1,5 +1,5 @@
 import {useEffect, useState} from "react";
-import * as Scroll from 'react-scroll';
+
 
 function ScrollReact() {
 
@@ -18,7 +18,14 @@ function ScrollReact() {
             window.removeEventListener("scroll", handleScroll)
         }
     }, [])
-    return(<></>)
+    return(
+    <>
+        <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+        </div>
+    </>
+
+    )
 }
 
 

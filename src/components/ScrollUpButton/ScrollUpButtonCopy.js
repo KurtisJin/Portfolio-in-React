@@ -5,9 +5,9 @@ import Animate from 'animate.css-react';
 
 export default function Scrollup() {
     
-    componentDidMount() {
-    
-            window.addEventListener('scroll', (event) => {
+    componentDidMount() {}
+    $(document).ready(function(){
+        $(window).scroll(function(){
             // sticky navbar on scroll script
             if(this.scrollY > 20){
                 $('.navbar').addClass("sticky");
@@ -40,5 +40,4 @@ export default function Scrollup() {
             $('.navbar .menu').toggleClass("active");
             $('.menu-btn i').toggleClass("active");
         });
-    }
 }
