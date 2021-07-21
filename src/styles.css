@@ -388,6 +388,15 @@ section .title::after{
     animation: statsbar 4s ease;
 }
 
+.skills .skills-content .right h2 {
+    margin-left: 10px;
+}
+
+.skills .skills-content .right h2:hover {
+    color: crimson;
+    background: none;   
+}
+
 @keyframes statsbar{
     from {
         width: 0%;
@@ -556,14 +565,14 @@ section .title::after{
     background: crimson!important;
 } */
 
-/* .github-profile {
+ .github-profile {
     background-color: white;
     border-radius: 3px; 
 }
 
 .resources {
     color: white;
-} */
+} 
 
 
 /* contact section styling */
@@ -605,6 +614,7 @@ section .title::after{
 .contact .right form .fields{
     display: flex;
 }
+
 .contact .right form .field,
 .contact .right form .fields .field {
     height: 45px;

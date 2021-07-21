@@ -4,7 +4,7 @@ import LandingPage from './components/LandingPage/LandingPage'
 import AboutMe from './components/AboutMe/AboutMe'
 // import ScrollReact from './components/ScrollUpButton/ScrollReact';
 import Services from './components/Services/Services'
-import Skills from './components/Skills/Skills'
+import Skills from './components/Skills/SkillsCopy'
 import Projects from './components/Projects/Projects'
 import ContactMe from './components/ContactMe/Contactme'
 import Footer from './components/Footer/Footer'

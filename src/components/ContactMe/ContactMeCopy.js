@@ -1,19 +1,7 @@
 import React from 'react';
-import emailjs from 'emailjs-com';
+
 
 export default function ContactMe() {
-
-    function sendEmail(e) {
-        e.preventDefault();
-    
-        emailjs.sendForm('service_xfrnsjk', 'template_w6i2mpk', e.target, 'user_vccCy2B5SXosoRj67LR6F')
-          .then((result) => {
-              console.log(result.text);
-          }, (error) => {
-              console.log(error.text);
-          });
-          e.target.reset();
-      }
 
     return (
 
@@ -57,7 +45,7 @@ export default function ContactMe() {
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form class="contact-form" onSubmit={sendEmail} action="#" method="POST">
+                    <form class="contact-form" action="#" method="POST">
                         <div class="fields">
                             <div class="field name">
                                 <input type="text" class="fullname" placeholder="Name" name="name" />
