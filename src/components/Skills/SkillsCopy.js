@@ -50,7 +50,9 @@ export default function Skills(props) {
                     <div className="skills-content">
                         <div className="column left">
                             <div className="text">My creative skills & experiences.</div>
-                            <p>I am a proficient in front end developer and back end web development, coding with HTML, CSS, and JS for the client-side and maintaining databases and infrastructure server-side. If you like to find out more, please click the button below.</p>
+                            <p>I am a proficient in front end developer and back end web development; coding with HTML, CSS, and JavaScript for the client-side and maintaining databases and infrastructure server-side. I have dove into
+                                react and fell in love with its effeciency. I am a fast learner, a problem solver, and a person who is looking to expend his knowledge in the programming world.
+                            </p>
                             {/* <a href="model.html">Read more</a> */}
                         </div>
                         <div class="right">
