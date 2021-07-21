@@ -1,6 +1,7 @@
 import React from 'react'
 import MyPicture from '../image/myPic.jpg'
 // import './AboutMe.css'
+import Typed from '../AboutMe/Typing/Typing'
 
 export default function AboutMe() {
     return (
@@ -13,7 +14,7 @@ export default function AboutMe() {
                     </div>
                 
                     <div className="column right">
-                        <div className="text">I'm Kurtis Jin and I'm a <span className="auto-type-2"></span></div>
+                        <div className="text">Hello! Please call me Kurtis. Nice to meet you! <span className="auto-type-2"><Typed/></span></div>
                         <p>My life was filled with hurdles. The difficulties of life have taught me not to give up and become successful with any tasks given. I was faced with unemployment due to COVID-19. It was another challenge to beat.
                             But, here I am beating more challenges life has thrown my way and utiliziing my skills and expending my knowledge to become a programmer.
                         </p>

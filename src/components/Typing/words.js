@@ -2,7 +2,6 @@ const words = [
   "Developer", 
   "Designer", 
   "Project Manager", 
-  "Dev Ops"
     
   ]
   

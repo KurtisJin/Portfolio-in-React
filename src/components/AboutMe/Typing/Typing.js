@@ -1,8 +1,7 @@
 import React from "react";
-import Words from "./words";
 import Typed from 'typed.js';
 import { classes } from "istanbul-lib-coverage";
-
+import wordsTwo from "./wordsTwo";
 // import "./style.css"
 
 
@@ -11,7 +10,7 @@ class Typing extends React.Component {
   componentDidMount() {
 
     const options = {
-    strings: Words,
+    strings: wordsTwo,
     typeSpeed: 50,
     backSpeed: 50,
     loop: true,
@@ -31,7 +30,7 @@ class Typing extends React.Component {
 
        return (
    
-          <div className="text-3">And I'm a <span className="auto-type"style={{ whiteSpace: "pre" }} ref={(el) => {
+          <div className="text-2">First, I am a <span className="auto-type"style={{ whiteSpace: "pre" }} ref={(el) => {
               this.el = el;
             }}/>
           </div>

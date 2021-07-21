@@ -47,6 +47,8 @@ section{
     align-items: center;
     justify-content: space-between;
 }
+
+
 section .title{
     position: relative;
     text-align: center;
@@ -355,6 +357,7 @@ section .title::after{
     color: crimson;
     background: none;
 }
+
 .skills .skills-content .right .bars {
     margin-bottom: 15px;
 }
