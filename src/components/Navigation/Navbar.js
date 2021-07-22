@@ -7,7 +7,7 @@ export const Navbar = () => {
     return (
         <nav className="navbar">
             <div className="max-width">
-                <Animate enter="bounceIn" durationAppear={1000} component="div" >
+                <Animate enter="bounceIn" animate={true} durationEnter={1000} component="div" >
                 <div className="logo"><a href="#">My Portfo<span>lio.</span></a></div>
                 </Animate>
                 <ul className="menu">

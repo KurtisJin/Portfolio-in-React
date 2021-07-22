@@ -1,11 +1,5 @@
-import React from 'react';
-import Animate from 'animate.css-react';
 
-
-
-export default function Scrollup() {
     
-    componentDidMount() {}
     $(document).ready(function(){
         $(window).scroll(function(){
             // sticky navbar on scroll script

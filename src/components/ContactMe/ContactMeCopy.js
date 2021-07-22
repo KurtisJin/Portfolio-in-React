@@ -61,7 +61,7 @@ export default function ContactMe() {
                             <textarea class="message" cols="30" rows="10" placeholder="Message.." name="message"></textarea>
                         </div>
                         <div class="button-area">
-                            <button class="send-msg" type="submit" name="send" onclick="sendMail(); return false">Send message</button>
+                            <button class="send-msg" type="submit" name="send" onClick="sendMail(); return false">Send message</button>
                         </div>
                     </form>
                 </div>
