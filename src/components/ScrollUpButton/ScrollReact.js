@@ -1,32 +1,49 @@
-import {useEffect, useState} from "react";
+import React, { Component, useEffect, useState } from 'react';
+// import Animate from 'animate.css-react';
+// import Navbar from '../Navigation/Navbar'
 
 
-function ScrollReact() {
 
-    const [pageOffset, setPageOffset] = useState(0);
-    const container = document.getElementById("root");
-    const handleScroll = () => {
-        const yPos = container.scrollTop;
-        console.log(pageOffset)
-        setPageOffset(yPos)
-    }
+
+export default function Scroll() {
+    
+   
+    const [scroll, setScroll] = useState(false);
+    
     useEffect(() => {
-        // console.log(pageOffset)
-        window.addEventListener("scroll", handleScroll, {passive:true})
 
-        return() => {
-            window.removeEventListener("scroll", handleScroll)
+        
+        const navBar = document.querySelector(".navbar");
+        const scrollUpBtn = document.querySelector(".scroll-up-btn")
+        
+        const scrollHandler = () =>  {
+            if(window.scrollY > 20) {   
+                navBar?.classList.add("sticky");
+               
+            }else{
+               navBar?.classList.remove("sticky");
+            }
+            if(window.scrollY > 500) {
+                scrollUpBtn?.classList.add("show");
+            } else {
+                scrollUpBtn?.classList.remove("show");
+            }
         }
-    }, [])
-    return(
-    <>
-        <div class="scroll-up-btn">
-        <i class="fas fa-angle-up"></i>
-        </div>
-    </>
+         
+        const ScrollUpButton = () => {
+            
+        }
 
+
+
+        window.addEventListener("scroll", scrollHandler);
+
+        return () => {
+            window.removeEventListener("scroll", scrollHandler);
+        };
+
+    }, []);
+    return (
+        <></>
     )
 }
-
-
-export default ScrollReact;
