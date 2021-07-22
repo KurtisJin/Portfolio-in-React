@@ -1,21 +1,31 @@
-import React, { Component, useEffect } from 'react';
-import Animate from 'animate.css-react';
+import React, { Component, useEffect, useState } from 'react';
+// import Animate from 'animate.css-react';
 import Navbar from '../Navigation/Navbar'
+
 
 
 
 export default function Scroll() {
     
-    const[scroll, setScroll] = useState(false);
+    const [scroll, setScroll] = useState(false);
+
     useEffect(() => {
+
+        const navBar = document.getElementById(".navbar");
+
         
-        window.addEventListener("scroll", () => {
+        const scrollHandler = () =>  {
             if(window.scrollY > 20) {
-                $('.navbar').addClass("sticky");
+                navBar?.addClass("sticky");
             }else{
-                $('.navbar').removeClass("sticky");
+               navBar?.removeClass("sticky");
             }
-        });
-         
+        }
+        
+        window.addEventListener("scroll", scrollHandler);
+
+        return () => {
+            window.removeEventListener("scroll", scrollHandler);
+        };
     }, []);
 }
