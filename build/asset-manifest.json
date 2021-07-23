@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "https://kurtisjin.github.io/Portfolio-in-React/static/css/main.0f6c0bbf.chunk.css",
+    "main.js": "https://kurtisjin.github.io/Portfolio-in-React/static/js/main.fe1bb4c0.chunk.js",
+    "main.js.map": "https://kurtisjin.github.io/Portfolio-in-React/static/js/main.fe1bb4c0.chunk.js.map",
+    "runtime-main.js": "https://kurtisjin.github.io/Portfolio-in-React/static/js/runtime-main.b27e9099.js",
+    "runtime-main.js.map": "https://kurtisjin.github.io/Portfolio-in-React/static/js/runtime-main.b27e9099.js.map",
+    "static/css/2.5972258e.chunk.css": "https://kurtisjin.github.io/Portfolio-in-React/static/css/2.5972258e.chunk.css",
+    "static/js/2.a0b88d92.chunk.js": "https://kurtisjin.github.io/Portfolio-in-React/static/js/2.a0b88d92.chunk.js",
+    "static/js/2.a0b88d92.chunk.js.map": "https://kurtisjin.github.io/Portfolio-in-React/static/js/2.a0b88d92.chunk.js.map",
+    "static/js/3.95bc1cec.chunk.js": "https://kurtisjin.github.io/Portfolio-in-React/static/js/3.95bc1cec.chunk.js",
+    "static/js/3.95bc1cec.chunk.js.map": "https://kurtisjin.github.io/Portfolio-in-React/static/js/3.95bc1cec.chunk.js.map",
+    "index.html": "https://kurtisjin.github.io/Portfolio-in-React/index.html",
+    "static/css/2.5972258e.chunk.css.map": "https://kurtisjin.github.io/Portfolio-in-React/static/css/2.5972258e.chunk.css.map",
+    "static/css/main.0f6c0bbf.chunk.css.map": "https://kurtisjin.github.io/Portfolio-in-React/static/css/main.0f6c0bbf.chunk.css.map",
+    "static/js/2.a0b88d92.chunk.js.LICENSE.txt": "https://kurtisjin.github.io/Portfolio-in-React/static/js/2.a0b88d92.chunk.js.LICENSE.txt",
+    "static/media/boundman2.5e9575d3.JPG": "https://kurtisjin.github.io/Portfolio-in-React/static/media/boundman2.5e9575d3.JPG",
+    "static/media/github.ae2245b9.png": "https://kurtisjin.github.io/Portfolio-in-React/static/media/github.ae2245b9.png",
+    "static/media/gp2.16944bb1.jpg": "https://kurtisjin.github.io/Portfolio-in-React/static/media/gp2.16944bb1.jpg",
+    "static/media/styles.css": "https://kurtisjin.github.io/Portfolio-in-React/static/media/landing-page-background.5664bb71.jpg",
+    "static/media/myPic.95f7acbb.jpg": "https://kurtisjin.github.io/Portfolio-in-React/static/media/myPic.95f7acbb.jpg",
+    "static/media/notes.3ea684f2.JPG": "https://kurtisjin.github.io/Portfolio-in-React/static/media/notes.3ea684f2.JPG",
+    "static/media/orm.33121ebf.png": "https://kurtisjin.github.io/Portfolio-in-React/static/media/orm.33121ebf.png",
+    "static/media/password_generator.0f106db6.JPG": "https://kurtisjin.github.io/Portfolio-in-React/static/media/password_generator.0f106db6.JPG",
+    "static/media/project1.f8f68c36.JPG": "https://kurtisjin.github.io/Portfolio-in-React/static/media/project1.f8f68c36.JPG",
+    "static/media/readme.591620ed.JPG": "https://kurtisjin.github.io/Portfolio-in-React/static/media/readme.591620ed.JPG",
+    "static/media/slick-theme.css": "https://kurtisjin.github.io/Portfolio-in-React/static/media/slick.c94f7671.ttf",
+    "static/media/weather_app.1285239c.JPG": "https://kurtisjin.github.io/Portfolio-in-React/static/media/weather_app.1285239c.JPG",
+    "static/media/workday_scheduler.1b7c3278.JPG": "https://kurtisjin.github.io/Portfolio-in-React/static/media/workday_scheduler.1b7c3278.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b27e9099.js",
+    "static/css/2.5972258e.chunk.css",
+    "static/js/2.a0b88d92.chunk.js",
+    "static/css/main.0f6c0bbf.chunk.css",
+    "static/js/main.fe1bb4c0.chunk.js"
+  ]
+}
