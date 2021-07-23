@@ -23,7 +23,14 @@ Weather Application -  [My Website](https://kurtisjin.github.io/Weather-Applicat
 - JavaScript
 - HTML
 - CSS
+- react.js
 - node.js
+- API
+- ORM
+- MVC
+- Express
+- Sql
+- NoSql
 
 ## Website:
 
