@@ -3,7 +3,7 @@ const words = [
   "Designer", 
   "Project Manager", 
   "IT Manager",
-  "Technical Sales",
+  "Technical Salesperson",
     
   ]
   

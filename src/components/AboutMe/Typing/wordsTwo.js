@@ -3,7 +3,7 @@ const wordsTwo = [
     "Designer", 
     "Project Manager", 
     "IT Manager",
-    "Technical Sales",
+    "Technical Salesperson",
     ]
     
     export default wordsTwo
