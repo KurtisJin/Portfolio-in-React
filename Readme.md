@@ -1,4 +1,5 @@
-![35f27c933bf26fa334ae138abb62fd8f](https://user-images.githubusercontent.com/66793863/107866793-040c3700-6e3a-11eb-8609-e611aca8e571.gif)
+![881563d6444b370fa4ceea0c3183bb4c](https://user-images.githubusercontent.com/66793863/127089424-c0d4f6b1-0f60-4ea9-b014-a3ca05f06d11.gif)
+
 
 # Hello, My name is Kurtis. 👋
 
